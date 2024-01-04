@@ -23,7 +23,16 @@ function App() {
     <>
       <h1>hi there</h1>
       {todo.title}
+      <Footer firstname={"Atharv"} lastname={"Srivastava"}/>
     </>
+  )
+}
+function Footer(props){
+  return(
+    <div>
+      {props.firstname} 
+      {props.lastname}
+    </div>
   )
 }
 
